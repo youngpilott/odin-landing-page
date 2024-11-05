@@ -154,15 +154,17 @@ img[alt="intro-2"] {
 .sign-up {
     display: flex;
     justify-content: space-around;
-    margin: 70px 300px;
+    margin: 70px auto;
     padding: 45px 15px;
     background-color: #3882f6;
     align-items: center;
     border-radius: 10px;
     gap: 30px;
+    min-width: 400px;
+    width: 50%;
 }
  .sign-up div {
-    flex: 0 1 auto;
+    flex: 0 0 300px;
  }
 
 .sign-up button {
